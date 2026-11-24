@@ -128,7 +128,7 @@ The start screen is a list of cards you arrange yourself: the calendar, a muscle
   </tr>
   <tr>
     <td><b>Session history.</b> Every previous session of this exercise as a list or as a table, one tap away from the exercise screen.</td>
-    <td><b>Exercise menu.</b> Destructive actions live behind ⋮ and ask first — a long press never performs an action. A set is edited with the pencil and deleted in the edit window, with Undo.</td>
+    <td><b>Exercise menu.</b> Destructive actions live behind ⋮ and ask first — a long press never performs an action. Hold a set to edit or delete it, with Undo; a tap adds a new set with the same numbers.</td>
     <td><b>Something hurts.</b> Mark a joint or a muscle and how much it hurts. Every exercise that loads that spot reminds you of it until you tap “It’s gone”; “A lot” comes with “see a doctor”.</td>
   </tr>
   <tr>
@@ -220,7 +220,7 @@ A finished workout can be reopened for 30 minutes — for the set you forgot or 
     <td width="33%"><img src="screenshots/programs.jpg" /></td>
   </tr>
   <tr>
-    <td><b>Planning hub.</b> Programs, analysis, records, the exercise library, periodization, goals, a 1RM calculator, history, your gym and guides. Hold a tile for two seconds and drag to reorder.</td>
+    <td><b>Planning hub.</b> Programs, analysis, records, totals, the exercise library, periodization, goals, a 1RM calculator, history, your gym and guides. Hold a tile for two seconds and drag to reorder.</td>
     <td><b>Tip of the day</b> at the bottom of the hub.</td>
     <td><b>Programs.</b> The current program, ready-made programs and the archive. A program with history is archived, never deleted — your workouts stay.</td>
   </tr>
@@ -253,6 +253,16 @@ A finished workout can be reopened for 30 minutes — for the set you forgot or 
     <td><b>A guide.</b> What the number is, why this number, what breaks if you change it, and where it comes from.</td>
     <td><b>My gym.</b> The bars and plates you have. The plate calculator in “Add set” loads the fewest plates and never more than exist; the exercise list can show only what your gym has.</td>
     <td><b>Share a program</b> by link, QR code, file or straight to a friend in the app. Your weights, history and cycles stay with you.</td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/totals.jpg" /></td>
+    <td><img src="screenshots/totals-exercise.jpg" /></td>
+    <td><img src="screenshots/totals-yearly.jpg" /></td>
+  </tr>
+  <tr>
+    <td><b>Totals.</b> Every exercise you did over 2 weeks, a month, a year, all time or your own dates — sessions, sets and working tonnage.</td>
+    <td><b>An exercise’s totals.</b> Sets, reps, average weight and tonnage for each effort rating, from warm-up to max. Shown as a table, a share bar or tiles; wide tables scroll sideways.</td>
+    <td><b>Year by year.</b> The average set weight for each rating in every calendar year, with the change against the previous year — is your “medium” heavier than it used to be?</td>
   </tr>
 </table>
 
@@ -399,7 +409,7 @@ All-time bests — over the whole history or for one muscle group, plus the fast
 
 While a friend trains, their card in the Feed is live: what they are doing right now — gym, cardio or outdoors — and the exercise they are on. Send a reaction, a GIF or a photo into the conversation under the workout.
 
-A published workout is a snapshot: exercises, sets with their rest and heart rate, photos and runs (with the route, unless you turn that off) — never your program, days or cycles. Publishing can be turned off.
+A published workout is a snapshot: exercises, sets with their rest and heart rate, photos and runs — never your program, days or cycles. The *What they see* tab in Friends decides what leaves the phone: what you’re doing live, new workouts and run routes. From one friend you can hide more (⋮ next to them → *What … sees*); they won’t know something is hidden.
 
 ---
 
@@ -471,9 +481,9 @@ Requires Android 10 or newer. Updates install only over a build signed with the 
 ## Privacy
 
 - Your training data is stored on your phone. There are no ads and no analytics trackers.
-- The server (Supabase) holds only what the social part needs: your account, profile name and friend code, friendships, published workouts, likes and comments. Your profile photo is visible to anyone signed in.
+- The server (Supabase) holds only what the social part needs: your account, profile name and friend code, friendships, published workouts, likes and comments. Your profile photo is visible to anyone signed in. What you hide from a friend in *What they see* is withheld by the server itself, not by the friend’s phone.
 - Health Connect is only read — sleep, steps, calories, resting heart rate and weight — and nothing from it is stored.
-- Map tiles come from OpenFreeMap. Your GPS track stays on the phone; a run's route reaches friends only in a published workout, and that can be turned off.
+- Map tiles come from OpenFreeMap. Your GPS track stays on the phone; a run's route reaches friends only in a published workout, and *What they see* can turn that off.
 - Backups are files you own — in your Downloads folder or wherever you put them.
 
 ## License
